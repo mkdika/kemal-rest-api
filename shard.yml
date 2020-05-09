@@ -1,0 +1,17 @@
+name: kemal-rest-api
+version: 0.1.0
+
+authors:
+  - Maikel Chandika <mkdika@gmail.com>
+
+targets:
+  kemal-rest-api:
+    main: src/kemal-rest-api.cr
+
+crystal: 0.34.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
