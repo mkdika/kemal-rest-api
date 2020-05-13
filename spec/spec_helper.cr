@@ -1,2 +1,4 @@
 require "spec"
-require "../src/kemal-rest-api"
+require "spec-kemal"
+
+Kemal.config.env = "test"

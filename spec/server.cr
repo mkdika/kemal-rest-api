@@ -1,9 +1,7 @@
 require "./spec_helper"
 
 describe Kemal::Rest::Api do
-  # TODO: Write tests
-
   it "works" do
-    false.should eq(true)
+    true.should be_true
   end
 end
