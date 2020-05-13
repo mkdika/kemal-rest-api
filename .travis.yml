@@ -5,12 +5,18 @@ language: crystal
 crystal:
   - latest
 
+services:
+  - postgresql
+
+env:
+  - DB_URL='postgres://postgres:@127.0.0.1:5432/kemal_rest_api'
+
 cache: shards
 
 script:
   - shards install
+  - crystal run src/util/db_setup.cr
   - crystal spec
-  - shards build --production --release --no-debug
 
 notifications:
   email:
