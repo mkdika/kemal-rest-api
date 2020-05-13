@@ -1,6 +1,7 @@
 require "./spec_helper"
+require "../src/server"
 
-describe Kemal::Rest::Api do
+describe Server do
   it "works" do
     true.should be_true
   end
