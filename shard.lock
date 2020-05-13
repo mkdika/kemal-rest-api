@@ -1,5 +1,13 @@
 version: 1.0
 shards:
+  crecto:
+    github: Crecto/crecto
+    version: 0.11.3
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.9.0
+
   exception_page:
     github: crystal-loot/exception_page
     version: 0.1.4
@@ -12,7 +20,19 @@ shards:
     github: jeromegn/kilt
     version: 0.4.0
 
+  micrate:
+    github: amberframework/micrate
+    version: 0.7.0
+
+  pg:
+    github: will/crystal-pg
+    version: 0.21.0
+
   radix:
     github: luislavena/radix
     version: 0.3.9
+
+  spec-kemal:
+    github: kemalcr/spec-kemal
+    version: 0.5.0
 
